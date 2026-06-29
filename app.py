@@ -18,7 +18,7 @@ if st.button("Predict"):
         else:
             st.success(f"Data fetched for {ticker}")
             st.subheader("Historical Closing Prices")
-            fig, ax = plt.subplots(figsize=(10,4))
+            fig, ax = plt.subplots(figsize=(10, 4))
             df['Close'].plot(ax=ax)
             st.pyplot(fig)
 
