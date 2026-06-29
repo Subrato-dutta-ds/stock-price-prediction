@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import load_model
 
 st.set_page_config(page_title="Stock Price Predictor", layout="wide")
 st.title("📈 Stock Price Prediction App")
@@ -25,4 +23,4 @@ if st.button("Predict"):
             st.pyplot(fig)
 
             st.subheader("Prediction")
-            st.info("This is a placeholder. Load your trained LSTM model and make predictions.")
+            st.info("Placeholder: load your LSTM model here.")
